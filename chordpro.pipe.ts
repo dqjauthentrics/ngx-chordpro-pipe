@@ -1,5 +1,5 @@
 /**
- * ChordproPipe
+ * ChordProPipe
  *
  * A pipe for angular 2/4 that translate ChordPro-formatted text into an HTML representation, to be used in conjunction with a set of styles
  * for proper display.
