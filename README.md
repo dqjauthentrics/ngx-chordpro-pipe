@@ -45,7 +45,7 @@ import {ChordproPipe} from 'path-to-pipes/chordpro.pipe';
 })
 class MyComponent {
     ...
-    public song = '{title: Twinkle, Twinkle}\n' +
+    public songText = '{title: Twinkle, Twinkle}\n' +
                   '[C]Twinkle [C/E]twinkle [F]little [C]star\n' +
                   '[F]How I [C]wonder [G]what you [C]are\n' +
                   '{any-directive} \n' +
