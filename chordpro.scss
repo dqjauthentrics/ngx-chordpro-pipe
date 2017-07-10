@@ -1,0 +1,80 @@
+.song {
+  font-family: "Courier New", monospace;
+  white-space: pre;
+  line-height: 0.75rem;
+  font-size: 0.5rem;
+
+  .chords {
+    font-weight: bold !important;
+  }
+
+  .lyrics {
+    font-style: italic;
+  }
+
+  .comment {
+    color: purple;
+  }
+
+  .soc {
+    color: red;
+  }
+
+  .title:before {
+    content: "Title: ";
+    font-weight: normal;
+  }
+
+  .composer:before {
+    content: "Composer(s): ";
+    font-weight: normal;
+  }
+
+  .key:before {
+    content: "Key: ";
+    font-weight: normal;
+  }
+
+  .tuning:before {
+    content: "Tuning: ";
+    font-weight: normal;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
+  .composer {
+    font-weight: bold;
+  }
+
+  .key {
+    font-weight: bold;
+  }
+
+  .tuning {
+    font-weight: bold;
+  }
+
+}
+
+@media all and (min-width: 50px)   {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 100px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 200px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 300px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 400px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 500px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 600px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 700px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 800px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 900px)  {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 1000px) {  .song  { font-size:0.90em;  } }
+@media all and (min-width: 1100px) {  .song  { font-size:0.95em;  } }
+@media all and (min-width: 1200px) {  .song  { font-size:1.00em;  } }
+@media all and (min-width: 1300px) {  .song  { font-size:1.05em;  } }
+@media all and (min-width: 1400px) {  .song  { font-size:1.10em;  } }
+@media all and (min-width: 1500px) {  .song  { font-size:1.15em;  } }
+@media all and (min-width: 1500px) {  .song  { font-size:1.20em;  } }
+@media all and (min-width: 1600px) {  .song  { font-size:1.25em;  } }
+@media all and (min-width: 1700px) {  .song  { font-size:1.30em;  } }
+
