@@ -3,16 +3,16 @@ Angular 4+ pipe to translate ChordPro text into HTML output.  Translates chords 
 
 ## Usage
 ### Template
-````
+``
             <div>
                 <input type="number" min="-11" max="+11" [(ngModel)]="nHalfSteps"/>
             </div>
             <div class="song" [innerHTML]="songText|chordpro:nHalfSteps"></div>
-````
+``
 ### Module Inclusion
-````
+``
 import {ChordproPipe} from 'path-to-pipes/chordpro.pipe';
-````
+``
 
 ### Component
 @Component({
@@ -30,5 +30,5 @@ class MyComponent {
                 '{end-previous-directive}';
     public nHalfSteps = 0;
 }
-````
+``
 I did not wrap this in a module because Angular package creation is a nightmare.
