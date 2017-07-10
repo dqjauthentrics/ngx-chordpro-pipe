@@ -6,6 +6,23 @@ the current key.
 
 This code leveraged some work from Jonathan Perkin's 
 <a href="https://github.com/jperkin/chordpro.js">chordpro.js</a> library.
+
+The pipe supports directives in the form:
+    
+    {directive: text that follows it}
+    
+and 
+     
+     {directive}
+     
+     
+In the first case, the text is placed into a div with the name of the directive as a class, and the text is
+placed within the div.  If you want to prefix your directives, you can use the :before CSS content attribute.
+There are examples of this in the chordpro.scss file.
+
+In the second case, a div is started, using the name of the class; on the next 
+{directive} the div is closed.  
+
 ## Usage
 ### Template
 ```
